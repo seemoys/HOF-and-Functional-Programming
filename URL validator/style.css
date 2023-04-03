@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: aqua;
+    gap: 50px;
+    border-radius: 50px;
+    box-shadow: 15px 5px 15px 5px blueviolet;
+}
+label{
+    font-size: 25px;
+    color: blueviolet;
+}
+input{
+    width: 500px;
+    height: 30px;
+    font-size: 25px;
+    border: none;
+}
+#check-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: -5px 5px 5px 1px #e17777;
+    font-size: 25px;
+    cursor: pointer;
+}
